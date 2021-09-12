@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.splashscreen"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:5:5-29:19
+12        android:allowBackup="true"
+12-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.2.0] /Users/IBT503510/.gradle/caches/transforms-2/files-2.1/9075dbfaab39e40f8982b36dac1019b6/core-1.2.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/SplashTheme" >
+20-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:11:9-43
+21        <activity
+21-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:12:9-15:15
+22            android:name="com.example.splashscreen.WordTestImplActivity"
+22-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:13:13-49
+23            android:exported="true" />
+23-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:14:13-36
+24        <activity
+24-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:16:9-24:20
+25            android:name="com.example.splashscreen.SplashScreenActivity"
+25-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:17:13-49
+26            android:exported="true" >
+26-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:18:13-36
+27            <intent-filter>
+27-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:19:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:20:17-69
+28-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:22:17-77
+30-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:25:9-27:52
+34            android:name="com.example.splashscreen.MainActivity"
+34-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:26:13-41
+35            android:screenOrientation="portrait" />
+35-->/Users/IBT503510/Downloads/Bootcamp-Project2-main-2/app/src/main/AndroidManifest.xml:27:13-49
+36    </application>
+37
+38</manifest>
